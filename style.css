@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+:root{
+    --primary-color: #1F2937;
+    --dark-color:  #6B7280;
+    --offwhite: #E5E7EB;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+/**Containers**/
+.container{
+   padding: 0rem 1rem;
+}
+.container-center{
+    max-width: 600px;
+   margin: auto;
+}
+/**Links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color) ;
+}
+/**Lists**/
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/**Navigation**/
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navigation .nav-pills{
+    text-align: right;   
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+/**Headers**/
+.hero{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.hero1{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.hero1 .hero-img2{
+    max-width: 250px;
+    display: block;
+    margin: auto;  
+}
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;  
+}
+.hero .hero-img1{
+    max-width: 250px;
+    display: block;
+    margin: auto;  
+}
+.hero1 .hero-heading{
+text-align: center;
+    padding-top: 1rem;
+    color:var(--dark-color);}
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 1rem;
+    color:var(--dark-color);
+}
+.hero1 .hero-heading .heading-inverted1{
+    color: var(--primary-color);
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+/**Sections**/
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.off-white{
+    background-color: var(--offwhite);
+}
+.primary{
+    color: var(--offwhite);
+}
+/**Spacing Margins**/
+.padding-md{
+    padding-top: 2rem;
+}
+/**Footers**/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+/**For video class**/
+iframe{
+    margin: 0 auto;
+    width: 100%;
+}
+.videowrapper{   
+    position: relative;  
+    max-height: 100%;
+}
+.social-links{
+    padding: 2rem;
+}
